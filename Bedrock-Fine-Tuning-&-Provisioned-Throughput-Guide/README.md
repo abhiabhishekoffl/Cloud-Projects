@@ -135,9 +135,7 @@ This workflow helps teams:
 3. Make sure the account is active and that billing is configured.
 4. Choose the correct AWS region before opening Bedrock services.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: AWS Console login screen.
+> The first AWS sign-in image from the LinkedIn post was not available for local download because of LinkedIn access restrictions, but the remaining Bedrock workflow screenshots were captured and stored locally below.
 
 ---
 
@@ -147,9 +145,7 @@ This workflow helps teams:
 2. Click on the Amazon Bedrock service.
 3. Review the dashboard and ensure your region supports the models you want to use.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Amazon Bedrock dashboard.
+![Amazon Bedrock Console](./screenshots/02-bedrock-console.png)
 
 ---
 
@@ -167,9 +163,7 @@ Common considerations:
 - fine-tuning support may differ by model family
 - throughput and cost vary by model and region
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Bedrock model catalog or model availability page.
+![Model Access and Availability](./screenshots/03-model-access.png)
 
 ---
 
@@ -185,9 +179,7 @@ Amazon Bedrock often requires access approval before a model can be used.
 4. Click **Request model access**.
 5. Wait for AWS to approve the access request.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Model access request page.
+![Request Model Access](./screenshots/03-model-access.png)
 
 ---
 
@@ -223,9 +215,7 @@ Example policy for model invocation:
 - avoid using the root account for regular operations
 - rotate access credentials as needed
 
-#### Screenshot Placeholder
-
-> Add screenshot here: IAM user/role policy configuration screen.
+![IAM Policy Configuration](./screenshots/04-iam-policy.png)
 
 ---
 
@@ -244,9 +234,7 @@ Typical use cases:
 
 Fine-tuning is useful when you need the model to behave consistently for a defined domain, not just a one-off prompt.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Bedrock fine-tuning dashboard or option selection screen.
+> This phase is typically configured from the Bedrock model customization and fine-tuning console, depending on the model support in the selected region.
 
 ---
 
@@ -273,10 +261,6 @@ A good fine-tuning job starts with well-prepared data.
 
 This format should be consistent across the dataset for better fine-tuning quality.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: dataset file example or training data upload screen.
-
 ---
 
 ### 8. Create and Run Fine-Tuning Job
@@ -297,10 +281,6 @@ Once the data is ready:
 - training duration
 - model output quality
 - cost estimates before running longer jobs
-
-#### Screenshot Placeholder
-
-> Add screenshot here: Fine-tuning job configuration screen.
 
 ---
 
@@ -327,9 +307,7 @@ It is especially helpful for:
 
 Provisioned throughput gives a predictable inference environment, which is often more suitable than standard on-demand usage in production workloads.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Provisioned throughput setup screen.
+> This configuration is often shown in the Bedrock capacity or throughput management area and may differ slightly by model family and region.
 
 ---
 
@@ -351,9 +329,7 @@ You are a cloud support assistant. Provide a concise but helpful response to a c
 - prompt stability
 - hallucination risk
 
-#### Screenshot Placeholder
-
-> Add screenshot here: model testing or playground output screen.
+![Bedrock Playground Test Output](./screenshots/05-playground.png)
 
 ---
 
@@ -373,10 +349,6 @@ Amazon Bedrock can involve different cost drivers, including:
 - compare on-demand and throughput pricing models
 - stop or scale down unused capacity
 - validate the cost before production rollout
-
-#### Screenshot Placeholder
-
-> Add screenshot here: AWS Billing Dashboard or Bedrock usage summary.
 
 ---
 

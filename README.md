@@ -7,3 +7,4 @@ All my AWS and Cloud projects — built from scratch on real AWS infrastructure,
 - [AWS Account Setup](AWS-Account-Setup/README.md)
 - [AWS S3 Static Website](AWS-S3-Static-Website/README.md)
 - [Amazon Bedrock Guide](Bedrock-Guide/README.md)
+- [Amazon Bedrock Fine-Tuning & Provisioned Throughput Guide](Bedrock-Fine-Tuning-&-Provisioned-Throughput-Guide/README.md)
