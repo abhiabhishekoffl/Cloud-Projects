@@ -141,7 +141,7 @@ Typical setup steps:
 4. Choose a supported region.
 5. Ensure the account is active and ready for model access.
 
-![AWS Console and Bedrock setup](https://media.licdn.com/dms/image/v2/D4D22AQGpEAKvmgtcqw/feedshare-shrink_800/B4DaCIOA.BKQAk-/0/1788991770767?e=2147483647&v=beta&t=Ed1rVVczm4XiSLmN8wuZq-7MIvlVHvgNans-sR8oL0Q)
+![AWS Console and Bedrock setup](./screenshots/01-bedrock-setup.png)
 
 ---
 
@@ -162,7 +162,7 @@ Once in the AWS Console:
 - inference pricing
 - fine-tuning or embedding support if required
 
-![Amazon Bedrock model selection and availability](https://media.licdn.com/dms/image/v2/D4D22AQHiPoiLbzvb6Q/feedshare-shrink_800/B4DaCIOAxqKoAg-/0/1788991770183?e=2147483647&v=beta&t=5iS20YCIbPmW89JXHP8cWmusvYBxlC8cYvRjkzoYdTA)
+![Amazon Bedrock model selection and availability](./screenshots/02-bedrock-models.png)
 
 ---
 
@@ -179,7 +179,7 @@ Amazon Bedrock often requires you to request access before using certain models.
 
 This is required for foundation models such as Anthropic Claude, Meta Llama, Titan, and others depending on region and account status.
 
-![Bedrock model access request](https://media.licdn.com/dms/image/v2/D4D22AQFNRZIQUauwCw/feedshare-shrink_800/B4DaCIOAt.KsAc-/0/1788991769711?e=2147483647&v=beta&t=2gYxZR7FXbbsgdSItjrbehSnY8VEgYkaLCzGkDD4jZc)
+![Bedrock model access request](./screenshots/03-model-access.png)
 
 ---
 
@@ -222,7 +222,7 @@ Create an IAM role or user with least-privilege policies for:
 - follow least-privilege access
 - do not hardcode secrets in source code
 
-![IAM policy and role configuration](https://media.licdn.com/dms/image/v2/D4D22AQGygAixUP4M6w/feedshare-shrink_800/B4DaCIOAvaHUAc-/0/1788991769819?e=2147483647&v=beta&t=RmNGMJyO9CJfWaea0VPdY6rX_1UwUQ3ZJ6on1uxCcvY)
+![IAM policy and role configuration](./screenshots/04-iam-policy.png)
 
 ---
 
@@ -278,7 +278,7 @@ Common approaches:
 4. Retrieve the top matching chunks for a user query
 5. Pass the retrieved context to a Bedrock model
 
-![Knowledge base and vector store configuration](https://media.licdn.com/dms/image/v2/D4D22AQFecz-ula-5MQ/feedshare-shrink_800/B4DaCIOAx7HgAc-/0/1788991769968?e=2147483647&v=beta&t=LlbYPfWHDCEMApoPyfFuMSmED-JilJSjsoWypqFAt5w)
+![Knowledge base and vector store configuration](./screenshots/05-knowledge-base.png)
 
 ---
 
