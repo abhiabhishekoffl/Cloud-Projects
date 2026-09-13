@@ -141,9 +141,7 @@ Typical setup steps:
 4. Choose a supported region.
 5. Ensure the account is active and ready for model access.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: AWS Console login and Bedrock landing page.
+![AWS Console and Bedrock setup](https://media.licdn.com/dms/image/v2/D4D22AQGpEAKvmgtcqw/feedshare-shrink_800/B4DaCIOA.BKQAk-/0/1788991770767?e=2147483647&v=beta&t=Ed1rVVczm4XiSLmN8wuZq-7MIvlVHvgNans-sR8oL0Q)
 
 ---
 
@@ -164,9 +162,7 @@ Once in the AWS Console:
 - inference pricing
 - fine-tuning or embedding support if required
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Bedrock home page and model catalog.
+![Amazon Bedrock model selection and availability](https://media.licdn.com/dms/image/v2/D4D22AQHiPoiLbzvb6Q/feedshare-shrink_800/B4DaCIOAxqKoAg-/0/1788991770183?e=2147483647&v=beta&t=5iS20YCIbPmW89JXHP8cWmusvYBxlC8cYvRjkzoYdTA)
 
 ---
 
@@ -183,9 +179,7 @@ Amazon Bedrock often requires you to request access before using certain models.
 
 This is required for foundation models such as Anthropic Claude, Meta Llama, Titan, and others depending on region and account status.
 
-#### Screenshot Placeholder
-
-> Add screenshot here: Bedrock model access page.
+![Bedrock model access request](https://media.licdn.com/dms/image/v2/D4D22AQFNRZIQUauwCw/feedshare-shrink_800/B4DaCIOAt.KsAc-/0/1788991769711?e=2147483647&v=beta&t=2gYxZR7FXbbsgdSItjrbehSnY8VEgYkaLCzGkDD4jZc)
 
 ---
 
@@ -228,9 +222,7 @@ Create an IAM role or user with least-privilege policies for:
 - follow least-privilege access
 - do not hardcode secrets in source code
 
-#### Screenshot Placeholder
-
-> Add screenshot here: IAM user/role and permission policy screen.
+![IAM policy and role configuration](https://media.licdn.com/dms/image/v2/D4D22AQGygAixUP4M6w/feedshare-shrink_800/B4DaCIOAvaHUAc-/0/1788991769819?e=2147483647&v=beta&t=RmNGMJyO9CJfWaea0VPdY6rX_1UwUQ3ZJ6on1uxCcvY)
 
 ---
 
@@ -286,9 +278,7 @@ Common approaches:
 4. Retrieve the top matching chunks for a user query
 5. Pass the retrieved context to a Bedrock model
 
-#### Screenshot Placeholder
-
-> Add screenshot here: vector store or knowledge base configuration screen.
+![Knowledge base and vector store configuration](https://media.licdn.com/dms/image/v2/D4D22AQFecz-ula-5MQ/feedshare-shrink_800/B4DaCIOAx7HgAc-/0/1788991769968?e=2147483647&v=beta&t=LlbYPfWHDCEMApoPyfFuMSmED-JilJSjsoWypqFAt5w)
 
 ---
 
