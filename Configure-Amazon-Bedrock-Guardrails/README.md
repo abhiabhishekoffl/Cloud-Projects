@@ -6,7 +6,7 @@ This project follows the step-by-step workflow from the original LinkedIn post b
 
 [Open the source LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
-> The source post contains the original AWS Console screenshots for each step. Open the post links below to view the matching screenshot carousel image.
+> The screenshots below were downloaded from the original LinkedIn post and are included locally so they render on GitHub. The source post remains linked for attribution.
 
 ## What You Will Build
 
@@ -57,6 +57,10 @@ Guardrail trace and evaluation results
 4. Choose **Guardrails**.
 5. Select **Create guardrail**.
 
+![Amazon Bedrock overview and Guardrails page](./screenshots/linkedin-01.jpg)
+
+![Guardrails page with Create guardrail](./screenshots/linkedin-02.jpg)
+
 Screenshot source: [Step 1 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
 ### 2. Define Guardrail Details
@@ -68,6 +72,8 @@ Screenshot source: [Step 1 in the LinkedIn post](https://www.linkedin.com/posts/
 5. Continue to the content-filter configuration.
 
 Use clear fallback messages so users understand that the request was blocked by a safety policy rather than failing unexpectedly.
+
+![Provide guardrail details](./screenshots/linkedin-03.jpg)
 
 Screenshot source: [Step 2 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
@@ -84,6 +90,8 @@ Configure detection thresholds for harmful content categories, including:
 
 For each category, choose the strength appropriate for your application. A stricter setting improves protection but may also increase false positives, so validate the settings with representative prompts.
 
+![Configure content filters](./screenshots/linkedin-04.jpg)
+
 Screenshot source: [Step 3 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
 ### 4. Add Denied Topics
@@ -97,6 +105,8 @@ Denied topics prevent the model from handling subjects outside your application'
 
 For example, a financial education assistant could restrict cryptocurrency queries if cryptocurrency is outside the application's approved scope. Define topics narrowly enough that legitimate questions are not blocked accidentally.
 
+![Add a denied topic](./screenshots/linkedin-05.jpg)
+
 Screenshot source: [Step 4 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
 ### 5. Configure PII Filters
@@ -109,6 +119,8 @@ Configure protections for personally identifiable information.
 4. Review the policy for both user inputs and model outputs.
 
 Test with synthetic data only. Do not paste real customer records, credentials, payment data, or other sensitive information into a development console.
+
+![Configure personally identifiable information filters](./screenshots/linkedin-06.jpg)
 
 Screenshot source: [Step 5 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
@@ -131,6 +143,16 @@ Suggested test cases:
 | Denied-topic phrase | Denied-topic policy is triggered |
 | Synthetic email or phone number | PII is blocked or masked |
 | Model response containing sensitive data | Output is blocked or masked |
+
+![Configure contextual grounding checks](./screenshots/linkedin-07.jpg)
+
+![Test the guardrail](./screenshots/linkedin-08.jpg)
+
+![Denied topic trace](./screenshots/linkedin-09.jpg)
+
+![Content filter trace](./screenshots/linkedin-10.jpg)
+
+![Create a guardrail version](./screenshots/linkedin-11.jpg)
 
 Screenshot source: [Step 6 in the LinkedIn post](https://www.linkedin.com/posts/abhiabhishekoffl_generativeai-aws-amazonbedrock-ugcPost-7504243224681627648-s3Dc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-FrYBuu4G1Id4rSpwmjqVs_RTbyQ-DLY)
 
