@@ -1,6 +1,6 @@
 # Cloud-Projects
 
-All my AWS and Cloud projects — built from scratch on real AWS infrastructure, fully documented with step-by-step guides and screenshots. Each project covers a core cloud concept — from storage and compute to networking, serverless, and infrastructure as code — reflecting my hands-on journey as a Cloud Engineer.
+A collection of hands-on AWS and Generative AI projects built from scratch on real AWS infrastructure, with detailed step-by-step documentation and screenshots. These projects cover AWS fundamentals along with advanced Amazon Bedrock capabilities, including static website hosting, foundation models, fine-tuning, provisioned throughput, production-ready RAG applications, and AI guardrails — showcasing my practical experience in designing, deploying, and securing cloud-based AI solutions
 
 ## Projects
 
